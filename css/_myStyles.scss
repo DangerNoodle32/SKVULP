@@ -36,5 +36,33 @@ p {
 img {
 	display: block; /* Billeder er et element (laver linjeskift) */
 	max-width: 100%; /* Bredde må maks fylde 100% */
-	height: auto; /* Højden skal tilpasse sig */
+	height: auto;
 }
+
+.logo{
+	width: 100px;
+	height: 100px;
+}
+
+.nav-item{
+	font-size: 25px;
+}
+
+.headbanner{
+	border-radius: 25%;
+	width: 100%;
+}
+
+/* Centered text */
+.centered {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 25px;
+	border: 5px solid rgba(88,185,184,100);
+	font-size: 12px;
+}
+
+
+
