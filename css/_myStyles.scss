@@ -61,11 +61,10 @@ button {
 }
 
 .border-gradient {
-	border-radius: 10px;
-	border: 10px solid;
+	border: 5px solid;
 	border-image-slice: 1;
 }
-.border-gradient-purple {
+.border-gradient-orange {
 	border-image-source: linear-gradient(to left, #58B9B8, #F08E00);
 }
 
@@ -75,10 +74,21 @@ button {
 	bottom: 10%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border-radius: 25px;
-	font-size: 12px;
-	padding: 5px;
+	border-radius: 5px;
+	font-size: 10px;
+	padding: 3px;
 }
 
+.gradient-orange{
+	background: linear-gradient(to bottom, #F08E00, #58B9B8);
+	border-radius: 5px;
+	font-size: 10px;
+}
 
+.headline{
+	font-size: 25px;
+}
 
+h3{
+	text-decoration: underline!important;
+}

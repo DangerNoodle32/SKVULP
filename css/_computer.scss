@@ -6,7 +6,23 @@ $computer: "screen and (min-width: 1100px)";
   .centered {
     font-size: 35px;
   }
+
   .headbanner{
     height: 600px!important;
   }
+
+  .gradient-orange{
+    background: linear-gradient(to bottom, #F08E00, #58B9B8);
+    border-radius: 20px;
+    font-size: 25px;
+  }
+
+  .headline{
+    font-size: 35px;
+  }
+
+  h2{
+    font-size: 50px;
+  }
+
 }
