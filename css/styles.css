@@ -7292,7 +7292,13 @@ h3 {
   .headline {
     font-size: 35px; }
   h2 {
-    font-size: 50px; } }
+    font-size: 50px; }
+  .logo {
+    width: 80px !important;
+    height: 80px !important; }
+  .icon {
+    width: 50px !important;
+    height: 50px !important; } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
