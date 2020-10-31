@@ -39,9 +39,14 @@ img {
 	height: auto;
 }
 
+.headerlogo{
+	width: 100px!important;
+	height: 100px!important;
+}
+
 .logo{
-	width: 100px;
-	height: 100px;
+	width: 65px!important;
+	height: 65px!important;
 }
 
 .nav-item{
@@ -91,4 +96,10 @@ button {
 
 h3{
 	text-decoration: underline!important;
+}
+
+.icon{
+	width: 35px!important;
+	height: 35px!important;
+
 }
