@@ -7277,6 +7277,13 @@ h3 {
 .banner {
   height: 100px !important; }
 
+.info {
+  width: 200px !important;
+  height: 200px !important; }
+
+h4 {
+  color: #E7910C !important; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
@@ -7294,7 +7301,9 @@ h3 {
   .banner {
     height: 100% !important; }
   .text-info {
-    font-size: 40px !important; } }
+    font-size: 40px !important; }
+  .pdf {
+    font-size: 25px !important; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
@@ -7324,7 +7333,9 @@ h3 {
     height: 50px !important; }
   /* Festivalen */
   .banner {
-    height: 100% !important; } }
+    height: 100% !important; }
+  .pdf {
+    font-size: 25px !important; } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
