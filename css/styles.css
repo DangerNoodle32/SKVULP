@@ -7260,12 +7260,22 @@ button {
 .headline {
   font-size: 25px; }
 
+.underheadline {
+  font-size: 15px !important; }
+
 h3 {
   text-decoration: underline !important; }
 
 .icon {
   width: 35px !important;
   height: 35px !important; }
+
+/* Festivalen */
+.program {
+  font-size: 16px !important; }
+
+.banner {
+  height: 100px !important; }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
@@ -7275,7 +7285,16 @@ h3 {
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .centered {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .program {
+    font-size: 25px !important; }
+  .download {
+    font-size: 20px !important; }
+  /* Festivalen */
+  .banner {
+    height: 100% !important; }
+  .text-info {
+    font-size: 40px !important; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
@@ -7290,7 +7309,11 @@ h3 {
     border-radius: 20px;
     font-size: 25px; }
   .headline {
-    font-size: 35px; }
+    font-size: 35px !important; }
+  .text-info {
+    font-size: 50px !important; }
+  .underheadline {
+    font-size: 25px !important; }
   h2 {
     font-size: 50px; }
   .logo {
@@ -7298,7 +7321,10 @@ h3 {
     height: 80px !important; }
   .icon {
     width: 50px !important;
-    height: 50px !important; } }
+    height: 50px !important; }
+  /* Festivalen */
+  .banner {
+    height: 100% !important; } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
