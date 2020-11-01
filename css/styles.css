@@ -7291,6 +7291,9 @@ iframe {
 .besked {
   height: 150px !important; }
 
+footer {
+  bottom: 0 !important; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
