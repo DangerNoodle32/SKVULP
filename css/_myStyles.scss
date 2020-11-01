@@ -129,7 +129,8 @@ h4{
 .button {
 	display: inline-block;
 	background-color: #E7910C;
-	border: none;
+	border: 1px;
+	border-radius: 5px;
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 28px;
