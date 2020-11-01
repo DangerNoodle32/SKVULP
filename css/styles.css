@@ -7284,6 +7284,9 @@ h3 {
 h4 {
   color: #E7910C !important; }
 
+button {
+  font-size: 25px !important; }
+
 /* Kontakt */
 iframe {
   width: auto !important; }
