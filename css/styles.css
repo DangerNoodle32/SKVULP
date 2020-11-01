@@ -7284,6 +7284,13 @@ h3 {
 h4 {
   color: #E7910C !important; }
 
+/* Kontakt */
+iframe {
+  width: auto !important; }
+
+.besked {
+  height: 150px !important; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
@@ -7303,7 +7310,10 @@ h4 {
   .text-info {
     font-size: 40px !important; }
   .pdf {
-    font-size: 25px !important; } }
+    font-size: 25px !important; }
+  /* Kontakt */
+  iframe {
+    width: 100% !important; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
@@ -7323,8 +7333,6 @@ h4 {
     font-size: 50px !important; }
   .underheadline {
     font-size: 25px !important; }
-  h2 {
-    font-size: 50px; }
   .logo {
     width: 80px !important;
     height: 80px !important; }
