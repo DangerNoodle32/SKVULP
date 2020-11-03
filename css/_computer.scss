@@ -8,7 +8,17 @@ $computer: "screen and (min-width: 1100px)";
   }
 
   .headbanner{
-    height: 600px!important;
+    height: 650px!important;
+  }
+
+  .headbannertext{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    top: 5%;
+    left: 5%;
+    padding: 10px;
+    background: #E7910C;
   }
 
   .gradient-orange{

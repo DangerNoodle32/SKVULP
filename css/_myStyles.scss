@@ -53,6 +53,12 @@ img {
 .nav-item{
 	font-size: 25px;
 	font-family: 'Lato', sans-serif;
+	padding: 5px;
+}
+
+.nav-item:hover{
+	background: #E7910C;
+	border-radius: 15px;
 }
 
 .headbanner{
@@ -69,14 +75,14 @@ img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50px;
-	font-size: 10px;
-	padding: 5px;
+	font-size: 15px;
+	padding: 10px;
 	border: 15px transparent;
 	background-color: white;
 }
 
-.gradient-orange{
-	background: linear-gradient(to bottom, #F08E00, #58B9B8);
+.orange{
+	background: #E7910C;
 	border-radius: 50px;
 	font-size: 10px;
 	font-family: 'Lato', sans-serif;
