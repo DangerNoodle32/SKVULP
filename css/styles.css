@@ -7373,7 +7373,8 @@ footer {
     top: 5%;
     left: 5%;
     padding: 10px;
-    background: #E7910C; }
+    background: #E7910C;
+    color: white; }
   .gradient-orange {
     background: linear-gradient(to bottom, #F08E00, #58B9B8);
     border-radius: 20px;
