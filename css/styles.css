@@ -7186,7 +7186,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   /* Ingen ydre margen fra overskrifter */
   padding: 0;
-  /* Ingen indre margen fra overskrifter */ }
+  /* Ingen indre margen fra overskrifter */
+  font-family: 'Lato', sans-serif; }
 
 ul, ol {
   margin: 2px 10px 2px 10px;
@@ -7223,45 +7224,40 @@ img {
   height: 65px !important; }
 
 .nav-item {
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: 'Lato', sans-serif; }
 
 .headbanner {
   width: 100%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px; }
 
-button {
-  text-decoration: inherit;
-  font-size: 1rem;
-  padding: 1rem 2rem; }
-
-.border-gradient {
-  border: 5px solid;
-  border-image-slice: 1; }
-
-.border-gradient-orange {
-  border-image-source: linear-gradient(to left, #58B9B8, #F08E00); }
-
 /* Centered text */
 .centered {
+  font-family: 'Lato', sans-serif;
   position: absolute;
   bottom: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 10px;
-  padding: 3px; }
+  padding: 5px;
+  border: 15px transparent;
+  background-color: white; }
 
 .gradient-orange {
   background: linear-gradient(to bottom, #F08E00, #58B9B8);
-  border-radius: 5px;
-  font-size: 10px; }
+  border-radius: 50px;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif; }
 
 .headline {
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: 'Lato', sans-serif; }
 
 .underheadline {
-  font-size: 15px !important; }
+  font-size: 15px !important;
+  font-family: 'Lato', sans-serif; }
 
 h3 {
   text-decoration: underline !important; }
@@ -7358,7 +7354,7 @@ footer {
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 1100px) {
   .centered {
-    font-size: 35px; }
+    font-size: 30px; }
   .headbanner {
     height: 600px !important; }
   .gradient-orange {
