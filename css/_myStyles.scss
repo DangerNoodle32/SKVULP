@@ -67,6 +67,28 @@ img {
 	border-bottom-left-radius: 20px;
 }
 
+.headbannertext{
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	font-size: 20px;
+	top: 5%;
+	left: 5%;
+	padding: 5px;
+	background: #E7910C;
+	color: white;
+}
+
+.headbannerundertext{
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	font-size: 15px;
+	top: 23%;
+	left: 5%;
+	padding: 5px;
+	background: #E7910C;
+	color: white;
+}
+
 /* Centered text */
 .centered {
 	font-family: 'Lato', sans-serif;
@@ -75,10 +97,10 @@ img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50px;
-	font-size: 15px;
+	font-size: 12px;
 	padding: 10px;
-	border: 15px transparent;
-	background-color: white;
+	color: white;
+	background-color: #E7910C;
 }
 
 .orange{

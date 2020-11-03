@@ -7237,6 +7237,26 @@ img {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px; }
 
+.headbannertext {
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  font-size: 20px;
+  top: 5%;
+  left: 5%;
+  padding: 5px;
+  background: #E7910C;
+  color: white; }
+
+.headbannerundertext {
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  font-size: 15px;
+  top: 23%;
+  left: 5%;
+  padding: 5px;
+  background: #E7910C;
+  color: white; }
+
 /* Centered text */
 .centered {
   font-family: 'Lato', sans-serif;
@@ -7245,10 +7265,10 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50px;
-  font-size: 15px;
+  font-size: 12px;
   padding: 10px;
-  border: 15px transparent;
-  background-color: white; }
+  color: white;
+  background-color: #E7910C; }
 
 .orange {
   background: #E7910C;
@@ -7342,9 +7362,27 @@ footer {
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .centered {
-    font-size: 25px; }
+    font-size: 20px; }
   .program {
     font-size: 25px !important; }
+  .headbannertext {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    top: 5%;
+    left: 5%;
+    padding: 15px;
+    background: #E7910C;
+    color: white; }
+  .headbannerundertext {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    top: 28%;
+    left: 5%;
+    padding: 5px;
+    background: #E7910C;
+    color: white; }
   .download {
     font-size: 20px !important; }
   /* Festivalen */
@@ -7363,7 +7401,7 @@ footer {
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 1100px) {
   .centered {
-    font-size: 30px; }
+    font-size: 25px; }
   .headbanner {
     height: 650px !important; }
   .headbannertext {
@@ -7373,6 +7411,15 @@ footer {
     top: 5%;
     left: 5%;
     padding: 10px;
+    background: #E7910C;
+    color: white; }
+  .headbannerundertext {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    top: 22%;
+    left: 5%;
+    padding: 5px;
     background: #E7910C;
     color: white; }
   .gradient-orange {

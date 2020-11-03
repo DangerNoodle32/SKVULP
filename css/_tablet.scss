@@ -4,11 +4,33 @@
 $tablet: "screen and (min-width: 768px)";
 @media #{$tablet} {
   .centered {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .program{
     font-size: 25px!important;
+  }
+
+  .headbannertext{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 50px;
+    top: 5%;
+    left: 5%;
+    padding: 15px;
+    background: #E7910C;
+    color: white;
+  }
+
+  .headbannerundertext{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    top: 28%;
+    left: 5%;
+    padding: 5px;
+    background: #E7910C;
+    color: white;
   }
 
   .download{
