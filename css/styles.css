@@ -7289,6 +7289,10 @@ img {
 h3 {
   color: white !important; }
 
+.info-text {
+  font-size: 25px !important;
+  font-family: 'Lato', sans-serif; }
+
 .partnere {
   width: 50% !important;
   border-radius: 10px !important; }
@@ -7309,8 +7313,8 @@ h3 {
   height: 100px !important; }
 
 .info {
-  width: 200px !important;
-  height: 200px !important; }
+  width: 150px !important;
+  height: 150px !important; }
 
 h4 {
   color: #E7910C !important; }
@@ -7376,9 +7380,6 @@ footer {
 .omskvulp {
   color: #E7910C !important; }
 
-.text-info {
-  color: black !important; }
-
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
@@ -7415,8 +7416,6 @@ footer {
   /* Festivalen */
   .banner {
     height: 100% !important; }
-  .text-info {
-    font-size: 40px !important; }
   .pdf {
     font-size: 35px !important; }
   /* Kontakt */
@@ -7454,11 +7453,12 @@ footer {
     border-radius: 20px;
     font-size: 25px; }
   .headline {
-    font-size: 35px !important; }
-  .text-info {
-    font-size: 50px !important; }
+    font-size: 25px !important;
+    font-weight: bold; }
   .underheadline {
-    font-size: 25px !important; }
+    font-size: 20px !important; }
+  .info-text {
+    font-size: 30px !important; }
   .logo {
     width: 80px !important;
     height: 80px !important; }
