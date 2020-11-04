@@ -7255,7 +7255,8 @@ img {
   left: 5%;
   padding: 5px;
   background: #E7910C;
-  color: white; }
+  color: white;
+  max-width: 200px; }
 
 /* Centered text */
 .centered {
@@ -7274,6 +7275,7 @@ img {
   background: #E7910C;
   border-radius: 50px;
   font-size: 10px;
+  color: white;
   font-family: 'Lato', sans-serif; }
 
 .headline {
@@ -7358,6 +7360,13 @@ iframe {
 footer {
   bottom: 0 !important; }
 
+/* Om skvulp */
+.omskvulp {
+  color: #E7910C !important; }
+
+.text-info {
+  color: black !important; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
@@ -7387,7 +7396,8 @@ footer {
     left: 5%;
     padding: 5px;
     background: #E7910C;
-    color: white; }
+    color: white;
+    max-width: 600px; }
   .download {
     font-size: 20px !important; }
   /* Festivalen */

@@ -87,6 +87,7 @@ img {
 	padding: 5px;
 	background: #E7910C;
 	color: white;
+	max-width: 200px;
 }
 
 /* Centered text */
@@ -107,6 +108,7 @@ img {
 	background: #E7910C;
 	border-radius: 50px;
 	font-size: 10px;
+	color: white;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -211,4 +213,14 @@ iframe{
 
 footer{
 	bottom: 0!important;
+}
+
+/* Om skvulp */
+
+.omskvulp{
+	color: #E7910C!important;
+}
+
+.text-info{
+	color: black!important;
 }
