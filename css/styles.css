@@ -7297,7 +7297,11 @@ h3 {
 
 /* Festivalen */
 .program {
-  font-size: 16px !important; }
+  font-size: 16px !important;
+  color: #E7910C !important; }
+
+.pdf {
+  text-decoration: underline !important; }
 
 .banner {
   height: 100px !important; }
@@ -7364,7 +7368,8 @@ footer {
   .centered {
     font-size: 20px; }
   .program {
-    font-size: 25px !important; }
+    font-size: 35px !important;
+    color: #E7910C !important; }
   .headbannertext {
     font-family: 'Lato', sans-serif;
     position: absolute;
@@ -7391,7 +7396,7 @@ footer {
   .text-info {
     font-size: 40px !important; }
   .pdf {
-    font-size: 25px !important; }
+    font-size: 35px !important; }
   /* Kontakt */
   iframe {
     width: 100% !important; } }
@@ -7440,9 +7445,7 @@ footer {
     height: 50px !important; }
   /* Festivalen */
   .banner {
-    height: 100% !important; }
-  .pdf {
-    font-size: 25px !important; } }
+    height: 100% !important; } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
