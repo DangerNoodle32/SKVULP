@@ -4,7 +4,7 @@
 $computer: "screen and (min-width: 1100px)";
 @media #{$computer} {
   .centered {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .headbanner{
@@ -67,4 +67,12 @@ $computer: "screen and (min-width: 1100px)";
     height: 100%!important;
   }
 
+  /* Kontakt */
+
+  .beskedheader{
+    width: 50%;
+  }
+
 }
+
+
