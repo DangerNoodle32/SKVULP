@@ -7221,7 +7221,6 @@ img {
   min-height: 100%; }
 
 .headerlogo {
-  width: 100px !important;
   height: 100px !important; }
 
 .logo {
@@ -7378,11 +7377,7 @@ iframe {
 .besked {
   height: 150px !important; }
 
-.row {
-  overflow: auto;
-  padding-bottom: 125px; }
-
-footer {
+#footeromos {
   position: relative;
   height: 125px;
   min-height: -125px;
