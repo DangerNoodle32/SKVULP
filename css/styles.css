@@ -7195,11 +7195,13 @@ ul, ol {
   padding: 0;
   /* Ingen indre margen fra lister */
   list-style-position: inside;
-  /* List punkter står på linje */ }
+  /* List punkter står på linje */
+  font-family: 'Lato', sans-serif; }
 
 li {
   margin: 0;
-  /* Ingen ydre margen fra listpunkter */ }
+  /* Ingen ydre margen fra listpunkter */
+  font-family: 'Lato', sans-serif; }
 
 p {
   margin: 0;
@@ -7214,6 +7216,9 @@ img {
   max-width: 100%;
   /* Bredde må maks fylde 100% */
   height: auto; }
+
+#container {
+  min-height: 100%; }
 
 .headerlogo {
   width: 100px !important;
@@ -7373,8 +7378,15 @@ iframe {
 .besked {
   height: 150px !important; }
 
+.row {
+  overflow: auto;
+  padding-bottom: 125px; }
+
 footer {
-  bottom: 0 !important; }
+  position: relative;
+  height: 125px;
+  min-height: -125px;
+  clear: both; }
 
 /* Om skvulp */
 .omskvulp {
